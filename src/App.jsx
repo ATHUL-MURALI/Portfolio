@@ -1,10 +1,10 @@
 import './App.css'
-
+import AboutMe from './components/aboutme/AboutMe'
 function App() {
   return (
-    <>
-      <p>hi</p>
-    </>
+    <div>
+      <AboutMe/>
+    </div>
   )
 }
 
