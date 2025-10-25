@@ -1,14 +1,29 @@
 .container {
-    background-color: white;
-    border: 2px solid blue;
+    box-sizing: border-box;
+    background-color: #101010;
+    border: 3px solid #1e1e1e;
     padding: 20px;
     /* margin: 20px; */
-    max-width: 20rem;
+    width: 20rem;
     border-radius: 8px
+}
+.content-box {
+  /* background-color: #ff0909;  */
 }
 .container h2 {
   margin-top: 0;
-  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+    2px 0 black,
+    -2px 0 black,
+    0 2px black,
+    0 -2px black,
+    2px 2px black,
+    -2px 2px black,
+    2px -2px black,
+    -2px -2px black;
 }
 
 .container p {
