@@ -1,12 +1,13 @@
-import './AboutMe.css'
+import './ExpOne.css'
 import myImg from '../../assets/athulPic.png'
 import but from '../../assets/button.svg'
-function AboutMe() {
+
+const ExpOne = () => {
     return (
         <div className='container'>
             <div className='container-box'>
                 <div className='image-box'>
-                    <img src = {myImg} alt="img not found" />
+                    <img src={myImg} alt="img not found" />
                 </div>
                 <div className='content-box'>
                     <div className='name-resume'>
@@ -23,4 +24,4 @@ function AboutMe() {
     )
 }
 
-export default AboutMe
+export default ExpOne
