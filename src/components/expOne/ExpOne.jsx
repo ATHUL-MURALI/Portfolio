@@ -1,23 +1,25 @@
 import './ExpOne.css'
-import myImg from '../../assets/athulPic.png'
-import but from '../../assets/button.svg'
 
 const ExpOne = () => {
     return (
         <div className='container'>
             <div className='container-box'>
-                <div className='image-box'>
-                    <img src={myImg} alt="img not found" />
-                </div>
                 <div className='content-box'>
-                    <div className='name-resume'>
-                        <h2>Athul Murali T</h2>
-                        <div className='download'>
-                            Resume
-                            <img src={but} alt="error" />
-                        </div>
+                    <div className='heading'>
+                        <h2>Cognizant</h2>
+                        <p>2024-2025</p>
                     </div>
-                    <p>I’m a Full-Stack Developer skilled in React, Spring Boot, JavaScript, Python, ETL tools.</p>
+                    <p>Data Analyst</p>
+                </div>
+                <div className='bullet'>
+                    <ul>
+                        <li>Developed ETL pipelines for hospital data integration using Talend Open Studio</li>
+                        <li>Designed and optimized data warehouse models for efficient reporting and analytics</li>
+                        <li>Improved data processing efficiency and accuracy in patient management systems</li>
+                        <li>Designed and optimized data warehouse models for efficient reporting and analytics</li>
+                        <li>Improved data processing efficiency and accuracy in patient management systems</li>
+                        <li>Improved data processing efficiency and accuracy in patient management systems</li>
+                    </ul>
                 </div>
             </div>
         </div>

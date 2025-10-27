@@ -2,51 +2,37 @@
     box-sizing: border-box;
     background-color: #101010;
     border: 0.13rem solid #1e1e1e;
-    padding: 1.25rem;
-    /* height: inherit;
-    width: inherit; */
-
-    /* height: calc(141*0.0625rem);
-    width: calc(463*0.0625rem); */
+    padding: calc(12*0.0625rem);;
     border-radius: 1.25rem
 }
 .container-box {
   display: flex;
   /* background-color: #ff0909; */
-  flex-direction: row;
+  flex-direction: column;
   gap: calc(15*0.0625rem);
-}
-.image-box {
-    display: flex;
-    flex-shrink: 0;
-    width: calc(101*0.0625rem);
-    box-sizing: border-box;
-    overflow: hidden;
-    background-color: #916CE7;
-    margin: 0;
-    border-radius: 0.75rem
-}
-.image-box img{
-  width: 100%;
   height: 100%;
-  object-fit: cover;
+  gap: 0;
 }
 .content-box{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 0.625rem;
+  gap: 0;
+  padding-bottom: calc(10*0.0625rem);
+  /* background-color: bisque; */
+  border-bottom: 0.13rem solid #1e1e1e;
 }
-.name-resume{
+.heading{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
+  /* background-color: aqua; */
 }
 .container h2 {
   margin: 0;
   color: #E6E6E6;
-  font-size: calc(22rem/16);
+  font-size: calc(16rem/16);
   font-weight: 600;
   text-shadow:
     2px 0 black,
@@ -75,10 +61,27 @@
     -2px -2px black;
 }
 
-.download {
-  display: flex;
-  font-size: calc(13rem/16);
+.bullet{
+  margin: 0;
+  padding-top: calc(10rem/16);
+  /* padding-bottom: calc(10rem/16); */
+  /* background-color: aqua ; */
+}
+ul{
+  margin: 0;
+}
+li{
+  margin: 0;
   color: #999999;
-  align-items: center;
-  gap: calc(8rem/16);
+  font-size: calc(14rem/16);
+  font-weight:500;
+  text-shadow:
+    2px 0 black,
+    -2px 0 black,
+    0 2px black,
+    0 -2px black,
+    2px 2px black,
+    -2px 2px black,
+    2px -2px black,
+    -2px -2px black;
 }
