@@ -3,15 +3,15 @@ import myImg from '../../assets/athulPic.png'
 import but from '../../assets/button.svg'
 function AboutMe() {
     return (
-        <div className='container'>
-            <div className='container-box'>
-                <div className='image-box'>
+        <div className='AboutMe__container'>
+            <div className='AboutMe__container-box'>
+                <div className='AboutMe__image-box'>
                     <img src = {myImg} alt="img not found" />
                 </div>
-                <div className='content-box'>
-                    <div className='name-resume'>
+                <div className='AboutMe__content-box'>
+                    <div className='AboutMe__name-resume'>
                         <h2>Athul Murali T</h2>
-                        <div className='download'>
+                        <div className='AboutMe__download'>
                             Resume
                             <img src={but} alt="error" />
                         </div>

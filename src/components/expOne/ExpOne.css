@@ -1,11 +1,11 @@
-.container {
+.ExpOne__container {
     box-sizing: border-box;
     background-color: #101010;
     border: 0.13rem solid #1e1e1e;
     padding: calc(12*0.0625rem);;
     border-radius: 1.25rem
 }
-.container-box {
+.ExpOne__container-box {
   display: flex;
   /* background-color: #ff0909; */
   flex-direction: column;
@@ -13,7 +13,7 @@
   height: 100%;
   gap: 0;
 }
-.content-box{
+.ExpOne__content-box{
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -21,7 +21,7 @@
   /* background-color: bisque; */
   border-bottom: 0.13rem solid #1e1e1e;
 }
-.heading{
+.ExpOne__heading{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,7 +29,7 @@
   margin: 0;
   /* background-color: aqua; */
 }
-.container h2 {
+.ExpOne__container h2 {
   margin: 0;
   color: #E6E6E6;
   font-size: calc(16rem/16);
@@ -45,7 +45,7 @@
     -2px -2px black;
 }
 
-.container p {
+.ExpOne__container p {
   margin: 0;
   color: #999999;
   font-size: calc(14rem/16);
@@ -61,16 +61,16 @@
     -2px -2px black;
 }
 
-.bullet{
+.ExpOne__bullet{
   margin: 0;
   padding-top: calc(10rem/16);
   /* padding-bottom: calc(10rem/16); */
   /* background-color: aqua ; */
 }
-ul{
+.ExpOne__container ul{
   margin: 0;
 }
-li{
+.ExpOne__container li{
   margin: 0;
   color: #999999;
   font-size: calc(14rem/16);
