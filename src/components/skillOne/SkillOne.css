@@ -1,0 +1,68 @@
+.SkillOne__container {
+    box-sizing: border-box;
+    background-color: #101010;
+    border: 0.13rem solid #1e1e1e;
+    padding: calc(12*0.0625rem);;
+    border-radius: 1.25rem
+}
+.SkillOne__container-box {
+  display: flex;
+  /* background-color: #ff0909; */
+  flex-direction: column;
+  height: 100%;
+  gap: calc(10*0.0625rem);
+}
+.SkillOne__content-box{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  /* background-color: bisque; */
+}
+
+.SkillOne__container h2 {
+  margin: 0;
+  color: #E6E6E6;
+  font-size: calc(16rem/16);
+  font-weight: 600;
+  text-shadow:
+    2px 0 black,
+    -2px 0 black,
+    0 2px black,
+    0 -2px black,
+    2px 2px black,
+    -2px 2px black,
+    2px -2px black,
+    -2px -2px black;
+}
+
+.SkillOne__container p {
+  margin: 0;
+  color: #999999;
+  font-size: calc(14rem/16);
+  font-weight:500;
+  text-shadow:
+    2px 0 black,
+    -2px 0 black,
+    0 2px black,
+    0 -2px black,
+    2px 2px black,
+    -2px 2px black,
+    2px -2px black,
+    -2px -2px black;
+}
+
+.SkillOne__img{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  /* background-color: aqua ; */
+  gap: calc(5rem * 00.0625);
+}
+
+.SkillOne__img img{
+  margin: 0;
+  padding: 0;
+  /* background-color: #8d447d; */
+  /* width: 100%;
+  height: auto; */
+}
