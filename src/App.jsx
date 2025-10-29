@@ -7,7 +7,8 @@ function App() {
     <div>
       {/* <AboutMe/> */}
       {/* <ExpOne/> */}
-      <SkillOne/>
+      {/* <SkillOne/> */}
+      
     </div>
   )
 }
