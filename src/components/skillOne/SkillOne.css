@@ -56,7 +56,14 @@
   flex-wrap: wrap;
   margin: 0;
   /* background-color: aqua ; */
-  gap: calc(5rem * 00.0625);
+  /* gap: calc(5rem * 00.0625); */
+  row-gap: calc(6rem * 00.0625);
+  column-gap: calc(5rem * 00.0625);
+  justify-content: space-between;
+}
+.SkillOne__img::after{
+  content: "";
+  flex: auto;
 }
 
 .SkillOne__img img{

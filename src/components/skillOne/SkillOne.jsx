@@ -16,8 +16,6 @@ const skillOne = () => {
                     <img src = {sk} alt="error" />
                     <img src = {sk} alt="error" />
                     <img src = {sk} alt="error" />
-                    <img src = {sk} alt="error" />
-                    <img src = {sk} alt="error" />
                 </div>
             </div>
         </div>
