@@ -2,15 +2,18 @@
     box-sizing: border-box;
     background-color: #101010;
     border: 0.13rem solid #1e1e1e;
-    padding: calc(12*0.0625rem);;
-    border-radius: 1.25rem
-}
+    padding: calc(12*0.0625rem);
+    border-radius: 1.25rem;
+    height: 100%;
+  }
 .SkillOne__container-box {
   display: flex;
   /* background-color: #ff0909; */
   flex-direction: column;
   height: 100%;
   gap: calc(10*0.0625rem);
+  align-content: center;
+  justify-content: center;
 }
 .SkillOne__content-box{
   display: flex;
@@ -59,12 +62,12 @@
   /* gap: calc(5rem * 00.0625); */
   row-gap: calc(6rem * 00.0625);
   column-gap: calc(5rem * 00.0625);
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
-.SkillOne__img::after{
+/* .SkillOne__img::after{
   content: "";
   flex: auto;
-}
+} */
 
 .SkillOne__img img{
   margin: 0;
