@@ -4,11 +4,24 @@ import ExpOne from './components/expOne/ExpOne'
 import SkillOne from './components/skillOne/SkillOne'
 function App() {
   return (
-    <div>
-      {/* <AboutMe/> */}
-      {/* <ExpOne/> */}
-      {/* <SkillOne/> */}
-      
+    // <div>
+    //   <AboutMe/>
+    //   {/* <ExpOne/> */}
+    //   {/* <SkillOne/> */}
+    // </div>
+    <div className='grid-container'>
+      <div className='item' style={{gridArea: 'box-1'}}></div>
+      <div className='item' style={{gridArea: 'box-2'}}></div>
+      <div className='item' style={{gridArea: 'box-3'}}></div>
+      <div className='item' style={{gridArea: 'box-4'}}></div>
+      <div className='item' style={{gridArea: 'box-5'}}></div>
+      <div className='item' style={{gridArea: 'box-6'}}></div>
+      <div className='item' style={{gridArea: 'box-7'}}></div>
+      <div className='item' style={{gridArea: 'box-8'}}></div>
+      <div className='item' style={{gridArea: 'box-9'}}></div>
+      <div className='item' style={{gridArea: 'box-10'}}></div>
+      <div className='item' style={{gridArea: 'box-11'}}></div>
+      <div className='item' style={{gridArea: 'box-12'}}></div>
     </div>
   )
 }
