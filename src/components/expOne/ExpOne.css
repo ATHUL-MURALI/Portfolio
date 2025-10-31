@@ -70,6 +70,7 @@
   /* background-color: aqua ; */
 }
 .ExpOne__container ul{
+  padding-left: calc(15*0.0625rem);;
   margin: 0;
 }
 .ExpOne__container li{

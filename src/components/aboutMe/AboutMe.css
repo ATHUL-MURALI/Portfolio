@@ -19,11 +19,13 @@
   /* background-color: #ff0909; */
   flex-direction: row;
   gap: calc(15*0.0625rem);
+  height: 100%;
 }
 .AboutMe__image-box {
     display: flex;
     flex-shrink: 0;
-    width: calc(101*0.0625rem);
+    height: 100%;
+    /* width: calc(101*0.0625rem); */
     box-sizing: border-box;
     overflow: hidden;
     background-color: #916CE7;
@@ -66,7 +68,7 @@
 .AboutMe__container p {
   margin: 0;
   color: #999999;
-  font-size: calc(14rem/16);
+  font-size: calc(13rem/16);
   font-weight:500;
   text-shadow:
     2px 0 black,
@@ -81,8 +83,11 @@
 
 .AboutMe__download {
   display: flex;
-  font-size: calc(13rem/16);
+  font-size: calc(12rem/16);
   color: #999999;
   align-items: center;
   gap: calc(8rem/16);
+}
+.AboutMe__download img{
+  width: 35%;
 }
