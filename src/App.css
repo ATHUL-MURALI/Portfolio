@@ -15,7 +15,7 @@ body {
   padding-right: 1.1394vw;
   display: grid;
   box-sizing: border-box;
-  grid-template-columns: 4.5643vw 14.2993vw 14.2993vw 31.1313vw 28.8692vw;
+  grid-template-columns: 4.5643vw 14.3vw 14.2986vw 31.1313vw 28.8692vw;
   /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
   grid-template-rows: 18.3457vh 28.1042vh 16.004vh 10.9297vh 10.9297vh;
   /* grid-template-rows: 167.13fr 256.03fr 145.8fr 99.57fr 99.57fr; */
@@ -35,5 +35,5 @@ body {
 }
 
 .item {
-  /* background-color: aqua; */
+  background-color: aqua;
 }

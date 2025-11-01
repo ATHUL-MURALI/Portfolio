@@ -1,4 +1,4 @@
-.SkillOne__container {
+.SkillTwo__container {
     box-sizing: border-box;
     background-color: #101010;
     border: 0.13rem solid #1e1e1e;
@@ -6,7 +6,7 @@
     border-radius: 1.25rem;
     height: 100%;
   }
-.SkillOne__container-box {
+.SkillTwo__container-box {
   display: flex;
   /* background-color: #ff0909; */
   flex-direction: column;
@@ -15,7 +15,7 @@
   align-content: center;
   justify-content: center;
 }
-.SkillOne__content-box{
+.SkillTwo__content-box{
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -23,7 +23,7 @@
 }
 
 
-.SkillOne__container p {
+.SkillTwo__container p {
   margin: 0;
   color: #999999;
   font-size: calc(12.5rem/16);
@@ -39,38 +39,19 @@
     -2px -2px black;
 }
 
-.SkillOne__img{
+.SkillTwo__img{
   display: flex;
-  /* flex-wrap: wrap; */
-  flex-direction: column;
+
   margin: 0;
-  padding: 0;
   /* background-color: aqua ; */
-  gap: calc(6rem * 00.0625);
-  /* row-gap: calc(6rem * 00.0625);
-  column-gap: calc(5rem * 00.0625); */
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
-/* .SkillOne__img::after{
+/* .SkillTwo__img::after{
   content: "";
   flex: auto;
 } */
-.row-1 {
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  /* background-color: rgb(4, 255, 0); */
-}
-.row-2 {
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  /* background-color: rgb(4, 255, 0); */
-}
-#hidden{
-  visibility: hidden;
-}
-.SkillOne__img img{
+
+.SkillTwo__img img{
   margin: 0;
   padding: 0;
   width: 4vh;
@@ -78,3 +59,5 @@
   /* width: 100%;
   height: auto; */
 }
+
+

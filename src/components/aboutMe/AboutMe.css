@@ -2,7 +2,7 @@
     box-sizing: border-box;
     background-color: #101010;
     border: 0.13rem solid #1e1e1e;
-    padding: 1.25rem;
+    padding: 1rem;
     /* height: inherit;
     width: inherit; */
     height: 100%;
@@ -12,7 +12,6 @@
     border-radius: 1.25rem;
     align-content: center;
     justify-content: center;
-    
 }
 .AboutMe__container-box {
   display: flex;
@@ -48,46 +47,31 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  /* background-color: #916CE7; */
 }
 .AboutMe__container h2 {
   margin: 0;
   color: #E6E6E6;
-  font-size: calc(22rem/16);
-  font-weight: 600;
-  text-shadow:
-    2px 0 black,
-    -2px 0 black,
-    0 2px black,
-    0 -2px black,
-    2px 2px black,
-    -2px 2px black,
-    2px -2px black,
-    -2px -2px black;
+  font-size: calc(20rem/16);
+  font-weight: 500;
 }
 
 .AboutMe__container p {
   margin: 0;
   color: #999999;
-  font-size: calc(13rem/16);
-  font-weight:500;
-  text-shadow:
-    2px 0 black,
-    -2px 0 black,
-    0 2px black,
-    0 -2px black,
-    2px 2px black,
-    -2px 2px black,
-    2px -2px black,
-    -2px -2px black;
+  font-size: calc(12.5rem/16);
+  font-weight:400;
 }
 
 .AboutMe__download {
   display: flex;
   font-size: calc(12rem/16);
-  color: #999999;
+  color: #cccccc;
   align-items: center;
   gap: calc(8rem/16);
 }
 .AboutMe__download img{
-  width: 35%;
+  height: 2rem;
+  width: auto;
+  object-fit: contain;
 }

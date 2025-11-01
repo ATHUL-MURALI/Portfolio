@@ -1,5 +1,5 @@
 import './SkillOne.css'
-import sk from '../../assets/langFrame/html5.svg' 
+import sk from '../../assets/langFrame/html5.svg'
 const skillOne = () => {
     return (
         <div className='SkillOne__container'>
@@ -8,14 +8,22 @@ const skillOne = () => {
                     <p>Languages & Frameworks</p>
                 </div>
                 <div className='SkillOne__img'>
-                    <img src = {sk} alt="error" />
-                    <img src = {sk} alt="error" />
-                    <img src = {sk} alt="error" />
-                    <img src = {sk} alt="error" />
-                    <img src = {sk} alt="error" />
-                    <img src = {sk} alt="error" />
-                    <img src = {sk} alt="error" />
-                    <img src = {sk} alt="error" />
+                    <div className='row-1'>
+                        <img src={sk} alt="error" />
+                        <img src={sk} alt="error" />
+                        <img src={sk} alt="error" />
+                        <img src={sk} alt="error" />
+                        <img src={sk} alt="error" />
+                        <img src={sk} alt="error" />
+                    </div>
+                    <div className='row-2'>
+                        <img src={sk} alt="error" />
+                        <img src={sk} alt="error" />
+                        <img src={sk} alt="error" />
+                        <img src={sk} alt="error" />
+                        <img id='hidden' src={sk} alt="error" />
+                        <img id='hidden' src={sk} alt="error" />
+                    </div>
                 </div>
             </div>
         </div>

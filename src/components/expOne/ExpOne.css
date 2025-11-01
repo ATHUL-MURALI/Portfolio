@@ -34,8 +34,8 @@
 .ExpOne__container h2 {
   margin: 0;
   color: #E6E6E6;
-  font-size: calc(16rem/16);
-  font-weight: 600;
+  font-size: calc(14.5rem/16);
+  font-weight: 500;
   text-shadow:
     2px 0 black,
     -2px 0 black,
@@ -50,8 +50,8 @@
 .ExpOne__container p {
   margin: 0;
   color: #999999;
-  font-size: calc(14rem/16);
-  font-weight:500;
+  font-size: calc(12.5rem/16);
+  font-weight:400;
   text-shadow:
     2px 0 black,
     -2px 0 black,
@@ -76,8 +76,8 @@
 .ExpOne__container li{
   margin: 0;
   color: #999999;
-  font-size: calc(14rem/16);
-  font-weight:500;
+  font-size: calc(12.5rem/16);
+  font-weight:400;
   text-shadow:
     2px 0 black,
     -2px 0 black,
