@@ -4,18 +4,14 @@ import ExpOne from './components/expOne/ExpOne';
 import SkillOne from './components/skillOne/SkillOne';
 import SkillTwo from './components/skillTwo/SkillTwo';
 import EduCert from './components/eduCert/EduCert';
+import Interests from './components/interests/Interests';
 
 function App() {
   return (
-    // <div>
-    //   <AboutMe/>
-    //   {/* <ExpOne/> */}
-    //   {/* <SkillOne/> */}
-    // </div>
     <div className='grid-container'>
       <div className='item' style={{gridArea: 'box-1'}}></div>
       <div className='item' style={{gridArea: 'box-2'}}><AboutMe/></div>
-      <div className='item' style={{gridArea: 'box-3'}}></div>
+      <div className='item' style={{gridArea: 'box-3'}}><Interests/></div>
       <div className='item' style={{gridArea: 'box-4'}}></div>
       <div className='item' style={{gridArea: 'box-5'}}><ExpOne/></div>
       <div className='item' style={{gridArea: 'box-6'}}><ExpOne/></div>
