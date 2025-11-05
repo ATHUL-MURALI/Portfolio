@@ -5,6 +5,7 @@ import SkillOne from './components/skillOne/SkillOne';
 import SkillTwo from './components/skillTwo/SkillTwo';
 import EduCert from './components/eduCert/EduCert';
 import Interests from './components/interests/Interests';
+import Port from './components/port/Port';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <div className='item' style={{gridArea: 'box-9'}}></div>
       <div className='item' style={{gridArea: 'box-10'}}><SkillTwo/></div>
       <div className='item' style={{gridArea: 'box-11'}}><SkillTwo/></div>
-      <div className='item' style={{gridArea: 'box-12'}}></div>
+      <div className='item' style={{gridArea: 'box-12'}}><Port/></div>
     </div>
   )
 }

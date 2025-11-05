@@ -7,12 +7,12 @@ const Interests = () => {
                     <p>Data Analyst</p>
                 </div>
                 <div className='Interests__content'>
-                    <p>Data Analyst</p>
-                    <p>Data Analyst</p>
-                    <p>Data Analyst</p>
-                    <p>Data Analyst</p>
-                    <p>Data Analyst</p>
-                    <p>Data Analyst</p>
+                    <h1 className='Interests__boxbox'>Open Source Contribution</h1>
+                    <h1 className='Interests__boxbox'>System Design</h1>
+                    <h1 className='Interests__boxbox'>Tech Products</h1>
+                    <h1 className='Interests__boxbox'>Cloud Computing</h1>
+                    <h1 className='Interests__boxbox'>Gaming Development</h1>
+                    <h1 className='Interests__boxbox'>DevOps Practices</h1>
                 </div>
             </div>
         </div>

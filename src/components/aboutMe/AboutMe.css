@@ -52,20 +52,20 @@
 .AboutMe__container h2 {
   margin: 0;
   color: #E6E6E6;
-  font-size: calc(20rem/16);
+  font-size: calc(22rem/16);
   font-weight: 500;
 }
 
 .AboutMe__container p {
   margin: 0;
   color: #999999;
-  font-size: calc(12.5rem/16);
+  font-size: calc(14rem/16);
   font-weight:400;
 }
 
 .AboutMe__download {
   display: flex;
-  font-size: calc(12rem/16);
+  font-size: calc(13rem/16);
   color: #cccccc;
   align-items: center;
   gap: calc(8rem/16);

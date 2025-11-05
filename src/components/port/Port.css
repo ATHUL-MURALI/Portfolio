@@ -1,23 +1,20 @@
-.Interests__container {
+.Port__container {
+  margin: 0;
   box-sizing: border-box;
   background-color: #101010;
   border: 0.13rem solid #1e1e1e;
-  /* padding-right: calc(16rem/16);
-  padding-left: calc(16rem/16);
-  padding-top: calc(16rem/16);
-  padding-bottom: calc(16rem/16); */
-  padding: calc(16rem/16);
+  padding: calc(12rem/16);
   border-radius: 1.25rem;
   height: 100%;
   overflow: hidden;
 }
 
-.Interests__boxbox {
+.Port__boxbox {
   box-sizing: border-box;
   background-color: #191919;
   border: 0.13rem solid #1e1e1e;
-  padding-right: calc(12*0.0625rem);
-  padding-left: calc(12*0.0625rem);
+  padding-right: calc(10*0.0625rem);
+  padding-left: calc(10*0.0625rem);
   padding-top: calc(5*0.0625rem);
   padding-bottom: calc(5*0.0625rem);
   border-radius: 2.5rem;
@@ -36,8 +33,9 @@
     -2px -2px black;
 }
 
-.Interests__container-box {
+.Port__container-box {
   display: flex;
+  margin: 0;
   /* background-color: #ff0909; */
   flex-direction: column;
   justify-content: center;
@@ -45,15 +43,14 @@
   gap: calc(10*0.0625rem);
 }
 
-.Interests__heading {
+.Port__heading {
   margin: 0;
-  display: flex;
-  flex-direction: column;
+  padding: 0;
   gap: 0;
   /* background-color: bisque; */
 }
 
-.Interests__content {
+.Port__content {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
@@ -62,7 +59,7 @@
 }
 
 
-.Interests__container p {
+.Port__container p {
   margin: 0;
   color: #999999;
   font-size: calc(14rem/16);
@@ -77,3 +74,7 @@
     2px -2px black,
     -2px -2px black;
 }
+
+
+
+
