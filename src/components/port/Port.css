@@ -1,80 +1,96 @@
 .Port__container {
-  margin: 0;
-  box-sizing: border-box;
-  background-color: #101010;
-  border: 0.13rem solid #1e1e1e;
-  padding: calc(12rem/16);
-  border-radius: 1.25rem;
-  height: 100%;
-  overflow: hidden;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #101010;
+    border: 0.13rem solid #1e1e1e;
+  /* padding-right: calc(12rem/16);
+  padding-left: calc(12rem/16);
+  padding-top: calc(8rem/16);
+  padding-bottom: calc(8rem/16); */
+    padding: calc(12rem/16);
+    border-radius: 1.25rem;
+    height: 100%;
+    overflow: hidden;
 }
 
 .Port__boxbox {
-  box-sizing: border-box;
-  background-color: #191919;
-  border: 0.13rem solid #1e1e1e;
-  padding-right: calc(10*0.0625rem);
-  padding-left: calc(10*0.0625rem);
-  padding-top: calc(5*0.0625rem);
-  padding-bottom: calc(5*0.0625rem);
-  border-radius: 2.5rem;
-  margin: 0;
-  color: #cccccc;
-  font-size: calc(13rem/16);
-  font-weight: 400;
-  text-shadow:
-    2px 0 black,
-    -2px 0 black,
-    0 2px black,
-    0 -2px black,
-    2px 2px black,
-    -2px 2px black,
-    2px -2px black,
-    -2px -2px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #191919;
+    border: 0.13rem solid #1e1e1e;
+    padding-right: calc(10*0.0625rem);
+    padding-left: calc(10*0.0625rem);
+    padding-top: calc(5*0.0625rem);
+    padding-bottom: calc(5*0.0625rem);
+    border-radius: 2.5rem;
+    gap: calc(10rem/16);
+    margin: 0;
+}
+
+.Port__boxbox img {
+    width: 2.3vh;
+    margin: 0;
+    padding: 0;
 }
 
 .Port__container-box {
-  display: flex;
-  margin: 0;
-  /* background-color: #ff0909; */
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  gap: calc(10*0.0625rem);
+    display: flex;
+    margin: 0;
+    /* background-color: #ff0909; */
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: calc(10*0.0625rem);
+    /* gap: calc(8*0.0625rem); */
 }
 
 .Port__heading {
-  margin: 0;
-  padding: 0;
-  gap: 0;
-  /* background-color: bisque; */
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    /* background-color: bisque; */
 }
 
 .Port__content {
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  /* background-color: aqua; */
-  gap: calc(10*00.0625rem);
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    gap: calc(10*00.0625rem);
 }
 
 
 .Port__container p {
-  margin: 0;
-  color: #999999;
-  font-size: calc(14rem/16);
-  font-weight: 400;
-  text-shadow:
-    2px 0 black,
-    -2px 0 black,
-    0 2px black,
-    0 -2px black,
-    2px 2px black,
-    -2px 2px black,
-    2px -2px black,
-    -2px -2px black;
+    margin: 0;
+    color: #999999;
+    font-size: calc(14rem/16);
+    font-weight: 400;
+    text-shadow:
+        2px 0 black,
+        -2px 0 black,
+        0 2px black,
+        0 -2px black,
+        2px 2px black,
+        -2px 2px black,
+        2px -2px black,
+        -2px -2px black;
 }
 
-
-
-
+.Port__container h1 {
+    margin: 0;
+    color: #cccccc;
+    font-size: calc(13rem/16);
+    font-weight: 400;
+    text-shadow:
+        2px 0 black,
+        -2px 0 black,
+        0 2px black,
+        0 -2px black,
+        2px 2px black,
+        -2px 2px black,
+        2px -2px black,
+        -2px -2px black;
+}
