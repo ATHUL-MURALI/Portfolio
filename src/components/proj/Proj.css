@@ -1,0 +1,120 @@
+.Proj__container {
+    box-sizing: border-box;
+    background-color: #101010;
+    border: 0.13rem solid #1e1e1e;
+    padding: calc(12*0.0625rem);
+    border-radius: 1.25rem;
+    height:100%;
+    overflow: hidden;
+}
+.Proj__container-box {
+  display: flex;
+  /* background-color: #ff0909; */
+  flex-direction: column;
+  height: 100%;
+  gap: calc(10rem/16);
+}
+.Proj__content-box{
+  gap: 0;
+  /* background-color: bisque; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+
+.Proj__projects{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* padding-bottom: calc(10rem/16); */
+  /* background-color: rgb(34, 0, 255) ; */
+  gap: calc(10rem/16);
+}
+.Proj__project{
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: 0.13rem solid #1e1e1e;
+  /* padding-bottom: calc(10rem/16); */
+  background-color: #191919 ;
+  padding-right: calc(12rem/16);
+  padding-left: calc(12rem/16);
+  padding-top: calc(7rem/16);
+  padding-bottom: calc(7rem/16);
+  border-radius: 0.75rem;
+  gap: calc(8rem/16);
+}
+
+.Proj__image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0.75rem;
+    aspect-ratio: 1/1;
+}
+.Proj__image img{
+  width: 70%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.Proj__disc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    /* background-color: #E6E6E6; */
+}
+
+.Proj__probutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.Proj__container h2 {
+  margin: 0;
+  color: #E6E6E6;
+  font-size: calc(16rem/16);
+  font-weight: 500;
+  text-shadow:
+    2px 0 black,
+    -2px 0 black,
+    0 2px black,
+    0 -2px black,
+    2px 2px black,
+    -2px 2px black,
+    2px -2px black,
+    -2px -2px black;
+}
+
+.Proj__container p {
+  margin: 0;
+  color: #999999;
+  font-size: calc(14rem/16);
+  font-weight:400;
+  text-shadow:
+    2px 0 black,
+    -2px 0 black,
+    0 2px black,
+    0 -2px black,
+    2px 2px black,
+    -2px 2px black,
+    2px -2px black,
+    -2px -2px black;
+}
+

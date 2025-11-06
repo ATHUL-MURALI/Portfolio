@@ -9,23 +9,23 @@ const Contact = () => {
                         <div className='Contact__content'>
                             <div className='Contact__boxbox'>
                                 <img src={pf} alt="error" />
-                                <h1>Linkdin</h1>
+                                <h1 id='s10'>Palakkad, Kerala, India</h1>
                             </div>
                             <div className='Contact__boxbox'>
                                 <img src={pf} alt="error" />
-                                <h1>Github</h1>
+                                <h1 id='s10'>Open to work</h1>
                             </div>
                             <div className='Contact__boxbox'>
                                 <img src={pf} alt="error" />
-                                <h1>Stack Overflow</h1>
+                                <h1 id='s10'>+91-8848687421</h1>
                             </div>
                             <div className='Contact__boxbox'>
                                 <img src={pf} alt="error" />
-                                <h1>LeetCode</h1>
+                                <h1 id='s10'>APJ Abdul Kalam Technological University</h1>
                             </div>
                             <div className='Contact__boxbox'>
                                 <img src={pf} alt="error" />
-                                <h1>LeetCode</h1>
+                                <h1 id='s10'>athul.t.murali@gmail.com</h1>
                             </div>
                         </div>
                     </div>

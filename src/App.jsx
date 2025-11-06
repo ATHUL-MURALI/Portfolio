@@ -7,6 +7,7 @@ import EduCert from './components/eduCert/EduCert';
 import Interests from './components/interests/Interests';
 import Port from './components/port/Port';
 import Contact from './components/contact/Contact';
+import Proj from './components/proj/proj';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <div className='item' style={{gridArea: 'box-1'}}></div>
       <div className='item' style={{gridArea: 'box-2'}}><AboutMe/></div>
       <div className='item' style={{gridArea: 'box-3'}}><Interests/></div>
-      <div className='item' style={{gridArea: 'box-4'}}></div>
+      <div className='item' style={{gridArea: 'box-4'}}><Proj/></div>
       <div className='item' style={{gridArea: 'box-5'}}><ExpOne/></div>
       <div className='item' style={{gridArea: 'box-6'}}><ExpOne/></div>
       <div className='item' style={{gridArea: 'box-7'}}><EduCert/></div>
