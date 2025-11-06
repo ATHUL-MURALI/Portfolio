@@ -25,15 +25,6 @@
   color: #cccccc;
   font-size: calc(13rem/16);
   font-weight: 400;
-  text-shadow:
-    2px 0 black,
-    -2px 0 black,
-    0 2px black,
-    0 -2px black,
-    2px 2px black,
-    -2px 2px black,
-    2px -2px black,
-    -2px -2px black;
 }
 
 .Interests__container-box {

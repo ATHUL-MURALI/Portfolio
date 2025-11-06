@@ -1,4 +1,4 @@
-.Port__container {
+.Contact__container {
     margin: 0;
     box-sizing: border-box;
     background-color: #101010;
@@ -7,13 +7,34 @@
   padding-left: calc(12rem/16);
   padding-top: calc(8rem/16);
   padding-bottom: calc(8rem/16); */
-    padding: calc(12rem/16);
+    padding: calc(20rem/16);
     border-radius: 1.25rem;
     height: 100%;
     overflow: hidden;
 }
+.Contact__container_in{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.Contact__container_inside {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #141414;
+    border: 0.13rem solid #1e1e1e;
+  /* padding-right: calc(12rem/16);
+  padding-left: calc(12rem/16);
+  padding-top: calc(8rem/16);
+  padding-bottom: calc(8rem/16); */
+    padding: calc(12rem/16);
+    border-radius: 0.625rem;
+    /* height: 100%; */
+    overflow: hidden;
+}
 
-.Port__boxbox {
+.Contact__boxbox {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,13 +51,13 @@
     margin: 0;
 }
 
-.Port__boxbox img {
+.Contact__boxbox img {
     width: 2.3vh;
     margin: 0;
     padding: 0;
 }
 
-.Port__container-box {
+.Contact__container-box {
     display: flex;
     margin: 0;
     /* background-color: #ff0909; */
@@ -47,39 +68,46 @@
     /* gap: calc(8*0.0625rem); */
 }
 
-.Port__heading {
+.Contact__heading {
     margin: 0;
     padding: 0;
     gap: 0;
     /* background-color: bisque; */
 }
 
-.Port__content {
+.Contact__content {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     /* background-color: aqua; */
     gap: calc(10*00.0625rem);
 }
-
-
-.Port__container p {
+.Contact__button_box{
+    display: flex;
+    gap: calc(12rem/16);
+    width: 100%;
+}
+.Contact__button{
+    display: flex;
+    justify-content: center;
     margin: 0;
-    color: #999999;
-    font-size: calc(14rem/16);
-    font-weight: 400;
-    text-shadow:
-        2px 0 black,
-        -2px 0 black,
-        0 2px black,
-        0 -2px black,
-        2px 2px black,
-        -2px 2px black,
-        2px -2px black,
-        -2px -2px black;
+    box-sizing: border-box;
+    background-color: #1F1F1F;
+    padding: calc(16rem/16);
+    border-radius: 0.625rem;
+    /* height: 100%; */
+    overflow: hidden;
+    gap: calc(10rem/16);
+    width: 100%;
+}
+.Contact__button img{
+    width: 2.3vh;
+    margin: 0;
+    padding: 0;
 }
 
-.Port__container h1 {
+
+.Contact__container h1 {
     margin: 0;
     color: #cccccc;
     font-size: calc(13rem/16);
