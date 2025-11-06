@@ -80,6 +80,28 @@
     flex-direction: column;
     justify-content: space-around;
 }
+.Proj__probutton img{
+    width: calc(14rem/16);
+}
+
+.Proj__probutton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6B9611;
+    padding: calc(3rem/16);
+    border-radius: 0.3rem;
+    gap: calc(5rem/16);
+}
+.Proj__probutton2{
+    display: flex;
+    gap: calc(2rem/16);
+    justify-content: space-around;
+    align-items: center;
+    background-color: #916CE7;
+    padding: calc(3rem/16);
+    border-radius: 0.3rem;
+}
 
 
 
@@ -116,5 +138,11 @@
     -2px 2px black,
     2px -2px black,
     -2px -2px black;
+}
+.Proj__container h3 {
+  margin: 0;
+  color: #ffffff;
+  font-size: calc(12rem/16);
+  font-weight:400;
 }
 

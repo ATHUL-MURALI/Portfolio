@@ -9,6 +9,10 @@ const Proj = () => {
           <p>2024-2025</p>
         </div>
         <div className='Proj__projects'>
+
+
+
+          
           <div className='Proj__project'>
             <div className='Proj__image'>
               <img src={pj} alt="error" />
@@ -18,8 +22,14 @@ const Proj = () => {
               <p>B.tech in Computer Science - Jyothi Engineering Collage,B.tech in </p>
             </div>
             <div className='Proj__probutton'>
-              <p>button1</p>
-              <p>button2</p>
+              <div className='Proj__probutton1'>
+                <img src={pj} alt="error" />
+                <h3>Live</h3>
+              </div>
+              <div className='Proj__probutton2'>
+                <img src={pj} alt="error" />
+                <h3>Github</h3>
+              </div>
             </div>
           </div>
           <div className='Proj__project'>
@@ -27,14 +37,118 @@ const Proj = () => {
               <img src={pj} alt="error" />
             </div>
             <div className='Proj__disc'>
-              <h2>hi</h2>
-              <p>hiiiiiiiiiiiiiiii</p>
+              <h2>Mass Domain Avilability Search</h2>
+              <p>B.tech in Computer Science - Jyothi Engineering Collage,B.tech in </p>
             </div>
             <div className='Proj__probutton'>
-              <p>button1</p>
-              <p>button2</p>
+              <div className='Proj__probutton1'>
+                <img src={pj} alt="error" />
+                <h3>Live</h3>
+              </div>
+              <div className='Proj__probutton2'>
+                <img src={pj} alt="error" />
+                <h3>Github</h3>
+              </div>
             </div>
           </div>
+          <div className='Proj__project'>
+            <div className='Proj__image'>
+              <img src={pj} alt="error" />
+            </div>
+            <div className='Proj__disc'>
+              <h2>Mass Domain Avilability Search</h2>
+              <p>B.tech in Computer Science - Jyothi Engineering Collage,B.tech in </p>
+            </div>
+            <div className='Proj__probutton'>
+              <div className='Proj__probutton1'>
+                <img src={pj} alt="error" />
+                <h3>Live</h3>
+              </div>
+              <div className='Proj__probutton2'>
+                <img src={pj} alt="error" />
+                <h3>Github</h3>
+              </div>
+            </div>
+          </div>
+          <div className='Proj__project'>
+            <div className='Proj__image'>
+              <img src={pj} alt="error" />
+            </div>
+            <div className='Proj__disc'>
+              <h2>Mass Domain Avilability Search</h2>
+              <p>B.tech in Computer Science - Jyothi Engineering Collage,B.tech in </p>
+            </div>
+            <div className='Proj__probutton'>
+              <div className='Proj__probutton1'>
+                <img src={pj} alt="error" />
+                <h3>Live</h3>
+              </div>
+              <div className='Proj__probutton2'>
+                <img src={pj} alt="error" />
+                <h3>Github</h3>
+              </div>
+            </div>
+          </div>
+          <div className='Proj__project'>
+            <div className='Proj__image'>
+              <img src={pj} alt="error" />
+            </div>
+            <div className='Proj__disc'>
+              <h2>Mass Domain Avilability Search</h2>
+              <p>B.tech in Computer Science - Jyothi Engineering Collage,B.tech in </p>
+            </div>
+            <div className='Proj__probutton'>
+              <div className='Proj__probutton1'>
+                <img src={pj} alt="error" />
+                <h3>Live</h3>
+              </div>
+              <div className='Proj__probutton2'>
+                <img src={pj} alt="error" />
+                <h3>Github</h3>
+              </div>
+            </div>
+          </div>
+          <div className='Proj__project'>
+            <div className='Proj__image'>
+              <img src={pj} alt="error" />
+            </div>
+            <div className='Proj__disc'>
+              <h2>Mass Domain Avilability Search</h2>
+              <p>B.tech in Computer Science - Jyothi Engineering Collage,B.tech in </p>
+            </div>
+            <div className='Proj__probutton'>
+              <div className='Proj__probutton1'>
+                <img src={pj} alt="error" />
+                <h3>Live</h3>
+              </div>
+              <div className='Proj__probutton2'>
+                <img src={pj} alt="error" />
+                <h3>Github</h3>
+              </div>
+            </div>
+          </div>
+          <div className='Proj__project'>
+            <div className='Proj__image'>
+              <img src={pj} alt="error" />
+            </div>
+            <div className='Proj__disc'>
+              <h2>Mass Domain Avilability Search</h2>
+              <p>B.tech in Computer Science - Jyothi Engineering Collage,B.tech in </p>
+            </div>
+            <div className='Proj__probutton'>
+              <div className='Proj__probutton1'>
+                <img src={pj} alt="error" />
+                <h3>Live</h3>
+              </div>
+              <div className='Proj__probutton2'>
+                <img src={pj} alt="error" />
+                <h3>Github</h3>
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>
