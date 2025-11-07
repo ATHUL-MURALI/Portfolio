@@ -8,11 +8,12 @@ import Interests from './components/interests/Interests';
 import Port from './components/port/Port';
 import Contact from './components/contact/Contact';
 import Proj from './components/proj/proj';
+import SideBar from './components/sideBar/SideBar';
 
 function App() {
   return (
     <div className='grid-container'>
-      <div className='item' style={{gridArea: 'box-1'}}></div>
+      <div className='item' style={{gridArea: 'box-1'}}><SideBar/></div>
       <div className='item' style={{gridArea: 'box-2'}}><AboutMe/></div>
       <div className='item' style={{gridArea: 'box-3'}}><Interests/></div>
       <div className='item' style={{gridArea: 'box-4'}}><Proj/></div>

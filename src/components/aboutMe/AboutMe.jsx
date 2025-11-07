@@ -1,6 +1,6 @@
 import './AboutMe.css'
 import myImg from '../../assets/athulPic.png'
-import but from '../../assets/button.svg'
+import but from '../../assets/buttons/button.svg'
 function AboutMe() {
     return (
         <div className='AboutMe__container'>

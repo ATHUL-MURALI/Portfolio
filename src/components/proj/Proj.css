@@ -36,11 +36,13 @@
 .Proj__project{
   margin: 0;
   display: flex;
+  background-color: #191919;
   justify-content: space-between;
+  align-items: center;
   box-sizing: border-box;
   border: 0.13rem solid #1e1e1e;
   /* padding-bottom: calc(10rem/16); */
-  background-color: #191919 ;
+  /* background-color: #ff0000 ; */
   padding-right: calc(12rem/16);
   padding-left: calc(12rem/16);
   padding-top: calc(7rem/16);
@@ -54,8 +56,8 @@
     align-items: center;
     justify-content: center;
     background-color: #282828;
-    height: 4rem;
-    width: 4rem;
+    /* height: 6rem; */
+    width: 60%;
     border-radius: 0.75rem;
     aspect-ratio: 1/1;
 }
@@ -78,7 +80,10 @@
 .Proj__probutton{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    height: 100%;
+    gap: calc(10rem/16);
+    justify-content: center;
+    /* justify-content: space-around; */
 }
 .Proj__probutton img{
     width: calc(14rem/16);
@@ -89,8 +94,10 @@
     justify-content: center;
     align-items: center;
     background-color: #6B9611;
-    padding: calc(3rem/16);
+    padding-left: calc(4rem/16);
+    padding-right: calc(4rem/16);
     border-radius: 0.3rem;
+    height: 100%;
     gap: calc(5rem/16);
 }
 .Proj__probutton2{
@@ -99,8 +106,10 @@
     justify-content: space-around;
     align-items: center;
     background-color: #916CE7;
-    padding: calc(3rem/16);
+    padding-left: calc(5rem/16);
+    padding-right: calc(5rem/16);
     border-radius: 0.3rem;
+    height: 100%;
 }
 
 
