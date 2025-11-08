@@ -32,7 +32,13 @@
   /* padding-bottom: calc(10rem/16); */
   /* background-color: rgb(34, 0, 255) ; */
   gap: calc(10rem/16);
+  overflow-y: auto;      
+  scrollbar-width: none; 
 }
+
+
+
+
 .Proj__project{
   margin: 0;
   display: flex;

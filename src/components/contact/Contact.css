@@ -52,7 +52,7 @@
 }
 
 .Contact__boxbox img {
-    width: 2.3vh;
+    width: calc(16rem/16);
     margin: 0;
     padding: 0;
 }
@@ -101,7 +101,7 @@
     width: 100%;
 }
 .Contact__button img{
-    width: 2.3vh;
+    width: 9%;
     margin: 0;
     padding: 0;
 }

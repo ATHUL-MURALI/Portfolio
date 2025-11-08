@@ -3,8 +3,14 @@ import myImg from '../../assets/athulPic.png'
 import but from '../../assets/buttons/button.svg'
 function AboutMe() {
     const do1 = () => {
-        console.log("1clicked")
-    }
+        const fileUrl = '/ATHUL_MURALI_Resume.pdf';
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = 'ATHUL_MURALI_Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <div className='AboutMe__container'>
             <div className='AboutMe__container-box'>

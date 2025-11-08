@@ -12,6 +12,7 @@
     border-radius: 1.25rem;
     align-content: center;
     justify-content: center;
+    overflow: hidden;
 }
 .AboutMe__container-box {
   display: flex;
