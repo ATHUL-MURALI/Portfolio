@@ -1,13 +1,14 @@
 import './App.css';
-import AboutMe from './components/aboutme/AboutMe';
+import AboutMe from './components/aboutMe/AboutMe';
 import ExpOne from './components/expOne/ExpOne';
 import SkillOne from './components/skillOne/SkillOne';
 import SkillTwo from './components/skillTwo/SkillTwo';
+import SkillThree from './components/skillThree/SkillThree';
 import EduCert from './components/eduCert/EduCert';
 import Interests from './components/interests/Interests';
 import Port from './components/port/Port';
 import Contact from './components/contact/Contact';
-import Proj from './components/proj/proj';
+import Proj from './components/proj/Proj';
 import SideBar from './components/sideBar/SideBar';
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
       <div className='item' style={{gridArea: 'box-8'}}><SkillOne/></div>
       <div className='item' style={{gridArea: 'box-9'}}><Contact/></div>
       <div className='item' style={{gridArea: 'box-10'}}><SkillTwo/></div>
-      <div className='item' style={{gridArea: 'box-11'}}><SkillTwo/></div>
+      <div className='item' style={{gridArea: 'box-11'}}><SkillThree/></div>
       <div className='item' style={{gridArea: 'box-12'}}><Port/></div>
     </div>
   )

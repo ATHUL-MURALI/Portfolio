@@ -1,0 +1,63 @@
+.SkillThree__container {
+    box-sizing: border-box;
+    background-color: #101010;
+    border: 0.13rem solid #1e1e1e;
+    padding: calc(12*0.0625rem);
+    border-radius: 1.25rem;
+    height: 100%;
+  }
+.SkillThree__container-box {
+  display: flex;
+  /* background-color: #ff0909; */
+  flex-direction: column;
+  height: 100%;
+  gap: calc(10*0.0625rem);
+  align-content: center;
+  justify-content: center;
+}
+.SkillThree__content-box{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  /* background-color: bisque; */
+}
+
+
+.SkillThree__container p {
+  margin: 0;
+  color: #999999;
+  font-size: calc(14rem/16);
+  font-weight:400;
+  text-shadow:
+    2px 0 black,
+    -2px 0 black,
+    0 2px black,
+    0 -2px black,
+    2px 2px black,
+    -2px 2px black,
+    2px -2px black,
+    -2px -2px black;
+}
+
+.SkillThree__img{
+  display: flex;
+
+  margin: 0;
+  /* background-color: aqua ; */
+  justify-content: space-between;
+}
+/* .SkillThree__img::after{
+  content: "";
+  flex: auto;
+} */
+
+.SkillThree__img img{
+  margin: 0;
+  padding: 0;
+  width: 4vh;
+  /* background-color: #8d447d; */
+  /* width: 100%;
+  height: auto; */
+}
+
+
