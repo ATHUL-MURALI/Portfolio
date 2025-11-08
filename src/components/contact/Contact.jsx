@@ -1,6 +1,9 @@
 import './Contact.css'
 import pf from '../../assets/portf/leetcode.svg'
 const Contact = () => {
+    const do1 = () => {
+        console.log("1clicked")
+    }
     return (
         <div className='Contact__container'>
             <div className='Contact__container_in'>
@@ -31,14 +34,18 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='Contact__button_box'>
-                    <div className='Contact__button'>
-                        <img src={pf} alt="error" />
-                        <h1>Email Me</h1>
-                    </div>
-                    <div className='Contact__button'>
-                        <img src={pf} alt="error" />
-                        <h1>WhatsApp Me</h1>
-                    </div>
+                    <button onClick={do1}>
+                        <div className='Contact__button'>
+                            <img src={pf} alt="error" />
+                            <h1>Email Me</h1>
+                        </div>
+                    </button>
+                    <button onClick={do1}>
+                        <div className='Contact__button'>
+                            <img src={pf} alt="error" />
+                            <h1>WhatsApp Me</h1>
+                        </div>
+                    </button>
                 </div>
             </div>
         </div>

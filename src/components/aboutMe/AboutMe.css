@@ -65,13 +65,16 @@
 
 .AboutMe__download {
   display: flex;
-  font-size: calc(13rem/16);
-  color: #cccccc;
   align-items: center;
   gap: calc(8rem/16);
 }
+
 .AboutMe__download img{
   height: 2rem;
   width: auto;
   object-fit: contain;
+}
+#downloadR{
+  font-size: calc(13rem/16);
+  color: #cccccc;
 }
