@@ -62,6 +62,11 @@
     gap: calc(10*00.0625rem);
 }
 
+#min-con{
+    width: min-content;
+    white-space: nowrap;
+
+}
 
 .Port__container p {
     margin: 0;
