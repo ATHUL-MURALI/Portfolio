@@ -99,6 +99,7 @@
 .Contact__button {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 0;
     box-sizing: border-box;
     background-color: #1F1F1F;
@@ -111,8 +112,8 @@
 }
 
 .Contact__button img {
-    width: calc(13rem/16);
-    height: calc(13rem/16);
+    width: calc(20rem/16);
+    height: calc(20rem/16);
     /* width: 9%;
     height: 9%; */
     margin: 0;
