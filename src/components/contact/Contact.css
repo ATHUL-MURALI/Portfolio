@@ -3,28 +3,32 @@
     box-sizing: border-box;
     background-color: #101010;
     border: 0.13rem solid #1e1e1e;
-  /* padding-right: calc(12rem/16);
+    /* padding-right: calc(12rem/16);
   padding-left: calc(12rem/16);
   padding-top: calc(8rem/16);
   padding-bottom: calc(8rem/16); */
     padding: calc(20rem/16);
     border-radius: 1.25rem;
     height: 100%;
+    width: 100%;
+    container-type: inline-size;
     overflow: hidden;
 }
-.Contact__container_in{
+
+.Contact__container_in {
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
 }
+
 .Contact__container_inside {
     margin: 0;
     box-sizing: border-box;
     background-color: #141414;
     border: 0.13rem solid #1e1e1e;
-  /* padding-right: calc(12rem/16);
+    /* padding-right: calc(12rem/16);
   padding-left: calc(12rem/16);
   padding-top: calc(8rem/16);
   padding-bottom: calc(8rem/16); */
@@ -80,14 +84,19 @@
     display: flex;
     flex-wrap: wrap;
     /* background-color: aqua; */
-    gap: calc(10*00.0625rem);
+    row-gap: calc(10*00.0625rem);
+    ;
+    /* gap: calc(10*00.0625rem); */
+    justify-content: space-between;
 }
-.Contact__button_box{
+
+.Contact__button_box {
     display: flex;
     gap: calc(12rem/16);
     width: 100%;
 }
-.Contact__button{
+
+.Contact__button {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -100,12 +109,25 @@
     gap: calc(10rem/16);
     width: 100%;
 }
-.Contact__button img{
-    width: 9%;
+
+.Contact__button img {
+    width: calc(13rem/16);
+    height: calc(13rem/16);
+    /* width: 9%;
+    height: 9%; */
     margin: 0;
     padding: 0;
 }
 
+.Contact__button h1 {
+  white-space: nowrap; 
+}
+
+@container (width <= 360px) {
+  .Contact__button .optional {
+    display: none;
+  }
+}
 
 .Contact__container h1 {
     margin: 0;
@@ -114,7 +136,7 @@
     font-weight: 400;
 }
 
-#s12{
+/* #s12{
     margin: 0;
     color: #cccccc;
     font-size: calc(12rem/16);
@@ -125,10 +147,137 @@
     color: #cccccc;
     font-size: calc(11rem/16);
     font-weight: 400;
+} */
+/* #s10{
+    margin: 0;
+    color: #cccccc;
+    font-size: calc(10rem/16);
+    font-weight: 400;
 }
 #s10{
     margin: 0;
     color: #cccccc;
     font-size: calc(10rem/16);
     font-weight: 400;
+} */
+
+
+
+
+
+@container (width <=300px) {
+    .Contact__content h1 {
+        display: none;
+    }
+}
+
+@container (width > 300px) {
+    .Contact__content h1 {
+        font-size: calc(6rem/16);
+    }
+
+    .Contact__boxbox img {
+        width: calc(10rem/16);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@container (width > 320px) {
+    .Contact__content h1 {
+        font-size: calc(6.4rem/16);
+    }
+    .Contact__boxbox img {
+        width: calc(10.75rem/16);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@container (width > 335px) {
+    .Contact__content h1 {
+        font-size: calc(7rem/16);
+    }
+    .Contact__boxbox img {
+        width: calc(11.5rem/16);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@container (width > 350px) {
+    .Contact__content h1 {
+        font-size: calc(7rem/16);
+    }
+    .Contact__boxbox img {
+        width: calc(12.25rem/16);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@container (width > 365px) {
+    .Contact__content h1 {
+        font-size: calc(8rem/16);
+    }
+    .Contact__boxbox img {
+        width: calc(13rem/16);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@container (width > 380px) {
+    .Contact__content h1 {
+        font-size: calc(8.5rem/16);
+    }
+    .Contact__boxbox img {
+        width: calc(13rem/16);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@container (width > 405px) {
+    .Contact__content h1 {
+        font-size: calc(9.111rem/16);
+    }
+    .Contact__boxbox img {
+        width: calc(14.5rem/16);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@container (width > 420px) {
+    .Contact__content h1 {
+        font-size: calc(9.555rem/16);
+    }
+    .Contact__boxbox img {
+        width: calc(15.25rem/16);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@container (width > 435px) {
+    .Contact__content h1 {
+        font-size: calc(10rem/16);
+    }
+    .Contact__boxbox img {
+        width: calc(16rem/16);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@container (width > 450px) {
+    .Contact__content h1 {
+        font-size: calc(10.1rem/16);
+    }
+        .Contact__boxbox img {
+        width: calc(16.1rem/16);
+        margin: 0;
+        padding: 0;
+    }
 }

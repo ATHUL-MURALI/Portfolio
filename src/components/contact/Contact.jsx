@@ -12,23 +12,23 @@ const Contact = () => {
                         <div className='Contact__content'>
                             <div className='Contact__boxbox'>
                                 <img src={pf} alt="error" />
-                                <h1 id='s10'>Palakkad, Kerala, India</h1>
+                                <h1>Palakkad, Kerala, India</h1>
                             </div>
                             <div className='Contact__boxbox'>
                                 <img src={pf} alt="error" />
-                                <h1 id='s10'>Open to work</h1>
+                                <h1>Open to work</h1>
                             </div>
                             <div className='Contact__boxbox'>
                                 <img src={pf} alt="error" />
-                                <h1 id='s10'>+91-8848687421</h1>
+                                <h1>+91-8848687421</h1>
                             </div>
                             <div className='Contact__boxbox'>
                                 <img src={pf} alt="error" />
-                                <h1 id='s10'>APJ Abdul Kalam Technological University</h1>
+                                <h1>APJ Abdul Kalam Technological University</h1>
                             </div>
                             <div className='Contact__boxbox'>
                                 <img src={pf} alt="error" />
-                                <h1 id='s10'>athul.t.murali@gmail.com</h1>
+                                <h1>athul.t.murali@gmail.com</h1>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const Contact = () => {
                     <button onClick={do1}>
                         <div className='Contact__button'>
                             <img src={pf} alt="error" />
-                            <h1>WhatsApp Me</h1>
+                            <h1>WhatsApp <span className="optional">Me</span></h1>
                         </div>
                     </button>
                 </div>

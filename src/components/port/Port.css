@@ -3,14 +3,17 @@
     box-sizing: border-box;
     background-color: #101010;
     border: 0.13rem solid #1e1e1e;
-  /* padding-right: calc(12rem/16);
-  padding-left: calc(12rem/16);
-  padding-top: calc(8rem/16);
-  padding-bottom: calc(8rem/16); */
+    /* padding-right: calc(12rem/16);
+    padding-left: calc(12rem/16);
+    padding-top: calc(8rem/16);
+    padding-bottom: calc(8rem/16); */
     padding: calc(12rem/16);
     border-radius: 1.25rem;
     height: 100%;
+    width: 100%;
     overflow: hidden;
+    container-type: inline-size;
+    width: 100%;
 }
 
 .Port__boxbox {
@@ -58,8 +61,9 @@
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
     /* background-color: aqua; */
-    gap: calc(10*00.0625rem);
 }
 
 #min-con{
@@ -88,5 +92,72 @@
     margin: 0;
     color: #cccccc;
     font-size: calc(13rem/16);
+    
+    /* font-size: 0.8vw; */
     font-weight: 400;
+}
+
+
+
+
+@container (width <= 220px) {
+  .Port__container h1 {
+    display: none;
+  }
+}
+@container (width <= 300px) {
+  .Port__container h1 {
+    display: none;
+  }
+}
+@container (width > 300px) {
+  .Port__container h1 {
+    font-size: calc(6rem/16);
+  }
+}
+@container (width > 320px) {
+  .Port__container h1 {
+    font-size: calc(6.84rem/16);
+  }
+}
+@container (width > 335px) {
+  .Port__container h1 {
+    font-size: calc(7.61rem/16);
+  }
+}
+@container (width > 350px) {
+  .Port__container h1 {
+    font-size: calc(8.38rem/16);
+  }
+}
+@container (width > 365px) {
+  .Port__container h1 {
+    font-size: calc(9.15rem/16);
+  }
+}
+@container (width > 380px) {
+  .Port__container h1 {
+    font-size: calc(9.92rem/16);
+  }
+}
+@container (width > 405px) {
+  .Port__container h1 {
+    font-size: calc(10.69rem/16);
+  }
+}
+@container (width > 420px) {
+  .Port__container h1 {
+    font-size: calc(11.46rem/16);
+  }
+}
+@container (width > 435px) {
+  .Port__container h1 {
+    font-size: calc(12.23rem/16);
+  }
+}
+
+@container (width > 450px) {
+  .Port__container h1 {
+    font-size: calc(13rem/16);
+  }
 }
