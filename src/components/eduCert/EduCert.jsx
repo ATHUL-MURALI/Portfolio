@@ -15,17 +15,17 @@ const EduCert = () => {
                     </div>
                     <div className='EduCert__content-box1'>
                         <div className='EduCert__heading'>
-                            <h2>Cognizant</h2>
-                            <p>2024-2025</p>
+                            <h2>1st Place at Yukthi 2025</h2>
+                            <p>2025</p>
                         </div>
-                        <p>Data Analyst</p>
+                        <p>Departmental Project Excellence Award (CSE)</p>
                     </div>
                     <div className='EduCert__content-box2'>
                         <div className='EduCert__heading'>
-                            <h2>Cognizant</h2>
-                            <p>2024-2025</p>
+                            <h2>Full-Stack Certificate – ICT Academy of Kerala</h2>
+                            <p>2025</p>
                         </div>
-                        <p>Data Analyst</p>
+                        <p>Full-Stack Developer</p>
                     </div>
                     </div>
                 </div>
