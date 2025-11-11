@@ -67,6 +67,8 @@
   padding-top: calc(10rem/16);
   /* padding-bottom: calc(10rem/16); */
   /* background-color: aqua ; */
+  overflow-y: auto;      
+  scrollbar-width: none; 
 }
 .ExpTwo__container ul{
   padding-left: calc(15*0.0625rem);;
@@ -75,7 +77,8 @@
 .ExpTwo__container li{
   margin: 0;
   color: #999999;
-  font-size: calc(14rem/16);
+  font-size: calc(0.61cqw + 0.61cqh);
+  /* font-size: calc(14rem/16); */
   font-weight:400;
   text-shadow:
     2px 0 black,
@@ -87,3 +90,4 @@
     2px -2px black,
     -2px -2px black;
 }
+

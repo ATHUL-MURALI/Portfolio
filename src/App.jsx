@@ -15,7 +15,7 @@ import ExpTwo from './components/expTwo/ExpTwo';
 function App() {
   return (
     <div className='grid-container'>
-      <div className='item' style={{gridArea: 'box-1'}}><SideBar/></div>
+      {/* <div className='item' style={{gridArea: 'box-1'}}><SideBar/></div> */}
       <div className='item' style={{gridArea: 'box-2'}}><AboutMe/></div>
       <div className='item' style={{gridArea: 'box-3'}}><Interests/></div>
       <div className='item' style={{gridArea: 'box-4'}}><Proj/></div>

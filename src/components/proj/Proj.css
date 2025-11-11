@@ -37,7 +37,9 @@
 }
 
 
-
+.Proj__projects button{
+  height: 100%;
+}
 
 .Proj__project{
   margin: 0;
@@ -86,7 +88,7 @@
 .Proj__probutton{
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 70%;
     gap: calc(10rem/16);
     justify-content: center;
     /* justify-content: space-around; */

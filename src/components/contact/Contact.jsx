@@ -7,7 +7,21 @@ import pf5 from '../../assets/contact/email.svg'
 import pf6 from '../../assets/contact/whatsapp.svg'
 const Contact = () => {
     const do1 = () => {
-        console.log("1clicked")
+        const gmailUrl = "https://mail.google.com/mail/?view=cm&fs=1&to=athul.t.murali@gmail.com&su=Hello%20Athul&body=Hi%20Athul,%0D%0A%0D%0AI'd%20like%20to%20connect%20regarding...";
+        const mailtoUrl = "mailto:athul.t.murali@gmail.com?subject=Hello%20Athul&body=Hi%20Athul,%0D%0A%0D%0AI'd%20like%20to%20connect%20regarding...";
+
+        try {
+            window.open(gmailUrl, "_blank");
+        } catch {
+            window.location.href = mailtoUrl;
+        }
+    };
+
+
+    const do2 = () => {
+        const phoneNumber = "918848687421"
+        const message = encodeURIComponent("Hi Athul!")
+        window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
     }
     return (
         <div className='Contact__container'>
@@ -45,7 +59,7 @@ const Contact = () => {
                             <h1>Email Me</h1>
                         </div>
                     </button>
-                    <button onClick={do1}>
+                    <button onClick={do2}>
                         <div className='Contact__button'>
                             <img src={pf6} alt="error" />
                             <h1>WhatsApp <span className="optional">Me</span></h1>
