@@ -9,7 +9,7 @@ const Proj = () => {
       <div className='Proj__container-box'>
         <div className='Proj__content-box'>
           <p>Projects</p>
-          <p>2024-2025</p>
+          <p>View All</p>
         </div>
         <div className='Proj__projects'>
 

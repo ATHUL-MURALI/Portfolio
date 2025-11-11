@@ -10,6 +10,7 @@ import Port from './components/port/Port';
 import Contact from './components/contact/Contact';
 import Proj from './components/proj/Proj';
 import SideBar from './components/sideBar/SideBar';
+import ExpTwo from './components/expTwo/ExpTwo';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <div className='item' style={{gridArea: 'box-3'}}><Interests/></div>
       <div className='item' style={{gridArea: 'box-4'}}><Proj/></div>
       <div className='item' style={{gridArea: 'box-5'}}><ExpOne/></div>
-      <div className='item' style={{gridArea: 'box-6'}}><ExpOne/></div>
+      <div className='item' style={{gridArea: 'box-6'}}><ExpTwo/></div>
       <div className='item' style={{gridArea: 'box-7'}}><EduCert/></div>
       <div className='item' style={{gridArea: 'box-8'}}><SkillOne/></div>
       <div className='item' style={{gridArea: 'box-9'}}><Contact/></div>

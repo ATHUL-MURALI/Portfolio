@@ -6,6 +6,7 @@
     /* height: inherit;
     width: inherit; */
     height: 100%;
+    width: 100%;
 
     /* height: calc(141*0.0625rem);
     width: calc(463*0.0625rem); */
@@ -20,6 +21,7 @@
   flex-direction: row;
   gap: calc(15*0.0625rem);
   height: 100%;
+  width: 100%;
 }
 .AboutMe__image-box {
     display: flex;

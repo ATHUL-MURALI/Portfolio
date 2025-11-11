@@ -1,5 +1,5 @@
 import './Contact.css'
-import pf1 from '../../assets/contact/location.svg'
+import pf1 from '../../assets/contact/loc.svg'
 import pf2 from '../../assets/contact/clock.svg'
 import pf3 from '../../assets/contact/phone.svg'
 import pf4 from '../../assets/contact/edu.svg'
