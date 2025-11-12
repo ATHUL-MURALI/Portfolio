@@ -5,7 +5,7 @@ const EduCert = () => {
             <div className='EduCert__container-box'>
                 <div className='EduCert__content-box'>
                     <p>Education & Certification</p>
-                    <div>
+                    <div className='EduCert__scrollable'>
                     <div className='EduCert__content-box1'>
                         <div className='EduCert__heading'>
                             <h2>Bachelor’s Degree  (cgpa: 9.41/10)</h2>
@@ -22,7 +22,7 @@ const EduCert = () => {
                     </div>
                     <div className='EduCert__content-box2'>
                         <div className='EduCert__heading'>
-                            <h2>Full-Stack Certificate – ICT Academy of Kerala</h2>
+                            <h2>Full-Stack Certificate – ICT Academy</h2>
                             <p>2025</p>
                         </div>
                         <p>Full-Stack Developer</p>

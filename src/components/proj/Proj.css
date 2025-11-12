@@ -128,7 +128,7 @@
 .Proj__container h2 {
   margin: 0;
   color: #E6E6E6;
-  font-size: calc(16rem/16);
+  font-size: calc(0.7cqw + 0.7cqh);
   font-weight: 500;
   text-shadow:
     2px 0 black,
@@ -144,7 +144,8 @@
 .Proj__container p {
   margin: 0;
   color: #999999;
-  font-size: calc(14rem/16);
+  /* font-size: calc(14rem/16); */
+  font-size: calc(0.57cqw + 0.57cqh);
   font-weight:400;
   text-shadow:
     2px 0 black,
@@ -159,7 +160,8 @@
 .Proj__container h3 {
   margin: 0;
   color: #ffffff;
-  font-size: calc(12rem/16);
+  /* font-size: calc(12rem/16); */
+  font-size: calc(0.7cqw + 0.7cqh);
   font-weight:400;
 }
 

@@ -15,7 +15,7 @@ body {
   padding-right: 1.1394vw;
   display: grid;
   box-sizing: border-box;
-  grid-template-columns:  14.3vw 14.2986vw 31.9313vw 28.0692vw;
+  grid-template-columns: 14.3vw 14.2986vw 31.9313vw 28.0692vw;
   /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
   grid-template-rows: 18.3457vh 28.1042vh 16.004vh 10.9297vh 10.9297vh;
   /* grid-template-rows: 167.13fr 256.03fr 145.8fr 99.57fr 99.57fr; */
@@ -34,6 +34,41 @@ body {
     " box-5 box-11 box-12 box-4";
 }
 
+/* @media (max-width: 1100px) {
+
+  body {
+    background-color: blue;
+  }
+
+  .grid-container {
+    height: 100%;
+    width: auto;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 45vw 45vw;
+    grid-template-rows: 18.3457vh 28.1042vh 16.004vh 10.9297vh 10.9297vh 30vh;
+    gap: 1.5vh;
+    grid-template-areas:
+      " box-2 box-2 "
+      " box-5 box-6 "
+      " box-5 box-8 "
+      " box-5 box-10 "
+      " box-5 box-11 "
+      " box-4 box-4 ";
+
+  }
+  .mobile {
+    display: none;
+  }
+  
+} */
+
 /* .item {
   background-color: aqua;
 } */
@@ -42,4 +77,3 @@ body {
 /* 4.5643vw
 box-1
 */
-

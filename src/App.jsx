@@ -15,18 +15,18 @@ import ExpTwo from './components/expTwo/ExpTwo';
 function App() {
   return (
     <div className='grid-container'>
-      {/* <div className='item' style={{gridArea: 'box-1'}}><SideBar/></div> */}
+      {/* <div className='item mobile' style={{gridArea: 'box-1'}}><SideBar/></div> */}
       <div className='item' style={{gridArea: 'box-2'}}><AboutMe/></div>
-      <div className='item' style={{gridArea: 'box-3'}}><Interests/></div>
-      <div className='item' style={{gridArea: 'box-4'}}><Proj/></div>
+      <div className='item mobile'  style={{gridArea: 'box-3'}}><Interests/></div>
+      <div className='item ' style={{gridArea: 'box-4'}}><Proj/></div>
       <div className='item' style={{gridArea: 'box-5'}}><ExpOne/></div>
       <div className='item' style={{gridArea: 'box-6'}}><ExpTwo/></div>
-      <div className='item' style={{gridArea: 'box-7'}}><EduCert/></div>
+      <div className='item mobile' style={{gridArea: 'box-7'}}><EduCert/></div>
       <div className='item' style={{gridArea: 'box-8'}}><SkillOne/></div>
-      <div className='item' style={{gridArea: 'box-9'}}><Contact/></div>
+      <div className='item mobile' style={{gridArea: 'box-9'}}><Contact/></div>
       <div className='item' style={{gridArea: 'box-10'}}><SkillTwo/></div>
       <div className='item' style={{gridArea: 'box-11'}}><SkillThree/></div>
-      <div className='item' style={{gridArea: 'box-12'}}><Port/></div>
+      <div className='item mobile' style={{gridArea: 'box-12'}}><Port/></div>
     </div>
   )
 }
