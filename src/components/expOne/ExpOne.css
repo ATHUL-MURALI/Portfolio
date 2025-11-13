@@ -80,7 +80,7 @@
   margin: 0;
   color: #999999;
   /* font-size: calc(14rem/16); */
-  font-size: calc(1.51cqw + 1.51cqh);
+  /* font-size: calc(1.51cqw + 1.51cqh); */
   font-weight:400;
   text-shadow:
     2px 0 black,

@@ -1,18 +1,37 @@
 import './ExpOne.css'
+import { useRef, useState, useEffect } from 'react';
 
 const ExpOne = () => {
+    const boxRef = useRef(null);
+    const [fontSize1, setfontSize1] = useState(1.375);
+    const [fontSize2, setfontSize2] = useState(0.875);
+    useEffect(() => {
+        const updateFontSize = () => {
+            if (boxRef.current) {
+                const { offsetWidth: w, offsetHeight: h } = boxRef.current;
+                const area = w * h;
+                const newSize1 = Math.sqrt(area)/310;
+                const newSize2 = Math.sqrt(area)/385;
+                setfontSize1(newSize1);
+                setfontSize2(newSize2);
+            }
+        };
+        updateFontSize();
+        window.addEventListener("resize", updateFontSize);
+        return () => window.removeEventListener("resize", updateFontSize);
+    }, []); 
     return (
-        <div className='ExpOne__container'>
+        <div ref={boxRef} className='ExpOne__container'>
             <div className='ExpOne__container-box'>
                 <div className='ExpOne__content-box'>
                     <div className='ExpOne__heading'>
-                        <h2>Cognizant</h2>
-                        <p>2024-2025</p>
+                        <h2 style={{fontSize: `${fontSize1}rem`}}>Cognizant</h2>
+                        <p style={{fontSize: `${fontSize2}rem`}}>Dec 24-Mar 25</p>
                     </div>
-                    <p>Data Analyst</p>
+                    <p style={{fontSize: `${fontSize2}rem`}}>Data Analyst</p>
                 </div>
                 <div className='ExpOne__bullet'>
-                    <ul>
+                    <ul style={{fontSize: `${fontSize2}rem`}}>
                         <li>Developed ETL (Extract, Transform, Load) pipelines using Talend Open Studio (Java) to integrate and manage hospital data</li>
                         <li>Achieved 99.5% data accuracy in patient reports by implementing data validation rules in Talend</li>
                         <li>Enhanced data reporting efficiency by 40% through optimized ETL workflows</li>
