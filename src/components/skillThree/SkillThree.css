@@ -5,6 +5,8 @@
     padding: calc(12*0.0625rem);
     border-radius: 1.25rem;
     height: 100%;
+    container-type: inline-size;
+    width: 100%;
     overflow: hidden;
   }
 .SkillThree__container-box {
@@ -62,3 +64,38 @@
 }
 
 
+@container (width > 220px) {
+  .SkillThree__img img {
+    width: 13%;;
+  }
+}
+@container (width > 260px) {
+  .SkillThree__img img {
+    width: 12%;;
+  }
+}
+@container (width > 300px) {
+  .SkillThree__img img {
+    width: 11%;;
+  }
+}
+@container (width > 340px) {
+  .SkillThree__img img {
+    width: 10%;;
+  }
+}
+@container (width > 380px) {
+  .SkillThree__img img {
+    width: 9%;;
+  }
+}
+@container (width > 420px) {
+  .SkillThree__img img {
+    width: 8%;;
+  }
+}
+@container (width > 460px) {
+  .SkillThree__img img {
+    width: 7%;;
+  }
+}

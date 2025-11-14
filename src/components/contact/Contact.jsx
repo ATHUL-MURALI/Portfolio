@@ -18,6 +18,17 @@ const Contact = () => {
     };
 
 
+
+    const copyToClipboard = async (text) => {
+        try {
+            await navigator.clipboard.writeText(text);
+        } catch (err) {
+            console.error("Failed to copy: ", err);
+        }
+    };
+
+
+
     const do2 = () => {
         const phoneNumber = "918848687421"
         const message = encodeURIComponent("Hi Athul!")
@@ -30,23 +41,23 @@ const Contact = () => {
                     <div className='Contact__container-box'>
                         <div className='Contact__content'>
                             <div className='Contact__boxbox'>
-                                <img src={pf1} alt="error" />
+                                <img src={pf1} alt="error" onClick={() => copyToClipboard("Palakkad, Kerala, India")}/>
                                 <h1>Palakkad, Kerala, India</h1>
                             </div>
                             <div className='Contact__boxbox'>
-                                <img src={pf2} alt="error" />
+                                <img src={pf2} alt="error" onClick={() => copyToClipboard("Open to work")}/>
                                 <h1>Open to work</h1>
                             </div>
                             <div className='Contact__boxbox'>
-                                <img src={pf3} alt="error" />
+                                <img src={pf3} alt="error" onClick={() => copyToClipboard("+91-8848687421")}/>
                                 <h1>+91-8848687421</h1>
                             </div>
                             <div className='Contact__boxbox'>
-                                <img src={pf4} alt="error" />
+                                <img src={pf4} alt="error" onClick={() => copyToClipboard("APJ Abdul Kalam Technological University")}/>
                                 <h1>APJ Abdul Kalam Technological University</h1>
                             </div>
                             <div className='Contact__boxbox'>
-                                <img src={pf5} alt="error" />
+                                <img src={pf5} alt="error" onClick={() => copyToClipboard("athul.t.murali@gmail.com")}/>
                                 <h1>athul.t.murali@gmail.com</h1>
                             </div>
                         </div>

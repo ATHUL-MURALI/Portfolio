@@ -5,6 +5,8 @@
     padding: calc(12*0.0625rem);
     border-radius: 1.25rem;
     height: 100%;
+    width: 100%;
+    container-type: inline-size;
     overflow: hidden;
   }
 .SkillTwo__container-box {
@@ -61,4 +63,40 @@
   height: auto; */
 }
 
+
+@container (width > 220px) {
+  .SkillTwo__img img {
+    width: 13%;;
+  }
+}
+@container (width > 260px) {
+  .SkillTwo__img img {
+    width: 12%;;
+  }
+}
+@container (width > 300px) {
+  .SkillTwo__img img {
+    width: 11%;;
+  }
+}
+@container (width > 340px) {
+  .SkillTwo__img img {
+    width: 10%;;
+  }
+}
+@container (width > 380px) {
+  .SkillTwo__img img {
+    width: 9%;;
+  }
+}
+@container (width > 420px) {
+  .SkillTwo__img img {
+    width: 8%;;
+  }
+}
+@container (width > 460px) {
+  .SkillTwo__img img {
+    width: 7%;;
+  }
+}
 

@@ -4,7 +4,7 @@ const Interests = () => {
         <div className='Interests__container'>
             <div className='Interests__container-box'>
                 <div className='Interests__heading'>
-                    <p>Data Analyst</p>
+                    <p>Interests</p>
                 </div>
                 <div className='Interests__content'>
                     <h1 className='Interests__boxbox'>Open Source Contribution</h1>

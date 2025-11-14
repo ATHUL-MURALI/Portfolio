@@ -15,7 +15,7 @@ const skillTwo = () => {
             if (boxRef.current) {
                 const { offsetWidth: w, offsetHeight: h } = boxRef.current;
                 const area = w * h;
-                const newSize1 = Math.sqrt(area)/310;
+                const newSize1 = Math.sqrt(area)/152;
                 const newSize2 = Math.sqrt(area)/70;
                 setfontSize1(newSize1);
                 setfontSize2(newSize2);
@@ -29,15 +29,15 @@ const skillTwo = () => {
         <div ref={boxRef} className='SkillTwo__container'>
             <div className='SkillTwo__container-box'>
                 <div className='SkillTwo__content-box'>
-                    <p>Backend & Database</p>
+                    <p style={{fontSize: `${fontSize1}rem`}}>Backend & Database</p>
                 </div>
                 <div className='SkillTwo__img'>
-                    <img style={{width: `${fontSize2}rem`}} src = {sk1} alt="error" />
-                    <img style={{width: `${fontSize2}rem`}} src = {sk2} alt="error" />
-                    <img style={{width: `${fontSize2}rem`}} src = {sk3} alt="error" />
-                    <img style={{width: `${fontSize2}rem`}} src = {sk4} alt="error" />
-                    <img style={{width: `${fontSize2}rem`}} src = {sk5} alt="error" />
-                    <img style={{width: `${fontSize2}rem`}} id='hidden' src = {sk5} alt="error" />
+                    <img src = {sk1} alt="error" />
+                    <img src = {sk2} alt="error" />
+                    <img src = {sk3} alt="error" />
+                    <img src = {sk4} alt="error" />
+                    <img src = {sk5} alt="error" />
+                    <img id='hidden' src = {sk5} alt="error" />
                 </div>
             </div>
         </div>

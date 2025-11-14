@@ -5,6 +5,8 @@
     padding: calc(12*0.0625rem);
     border-radius: 1.25rem;
     height: 100%;
+    width: 100%;
+    container-type: inline-size;
     overflow: hidden;
   }
 .SkillOne__container-box {
@@ -74,8 +76,46 @@
 .SkillOne__img img{
   margin: 0;
   padding: 0;
-  /* width: 15.1%; */
+
+  width: 15.1%;
   /* background-color: #8d447d; */
   /* width: 100%;
   height: auto; */
+}
+
+
+@container (width > 220px) {
+  .SkillOne__img img {
+    width: 13%;;
+  }
+}
+@container (width > 260px) {
+  .SkillOne__img img {
+    width: 12%;;
+  }
+}
+@container (width > 300px) {
+  .SkillOne__img img {
+    width: 11%;;
+  }
+}
+@container (width > 340px) {
+  .SkillOne__img img {
+    width: 10%;;
+  }
+}
+@container (width > 380px) {
+  .SkillOne__img img {
+    width: 9%;;
+  }
+}
+@container (width > 420px) {
+  .SkillOne__img img {
+    width: 8%;;
+  }
+}
+@container (width > 460px) {
+  .SkillOne__img img {
+    width: 7%;;
+  }
 }

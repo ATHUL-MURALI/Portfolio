@@ -20,7 +20,7 @@ const skillOne = () => {
             if (boxRef.current) {
                 const { offsetWidth: w, offsetHeight: h } = boxRef.current;
                 const area = w * h;
-                const newSize1 = Math.sqrt(area)/310;
+                const newSize1 = Math.sqrt(area)/185;
                 const newSize2 = Math.sqrt(area)/90;
                 setfontSize1(newSize1);
                 setfontSize2(newSize2);
@@ -34,28 +34,29 @@ const skillOne = () => {
         <div ref={boxRef} className='SkillOne__container'>
             <div className='SkillOne__container-box'>
                 <div className='SkillOne__content-box'>
-                    <p>Languages & Frameworks</p>
+                    <p style={{fontSize: `${fontSize1}rem`}}>Languages & Frameworks</p>
                 </div>
                 <div className='SkillOne__img'>
                     <div className='row-1'>
-                        <img style={{width: `${fontSize2}rem`}} src={sk1} alt="error" />
-                        <img style={{width: `${fontSize2}rem`}} src={sk2} alt="error" />
-                        <img style={{width: `${fontSize2}rem`}} src={sk3} alt="error" />
-                        <img style={{width: `${fontSize2}rem`}} src={sk4} alt="error" />
-                        <img style={{width: `${fontSize2}rem`}} src={sk5} alt="error" />
-                        <img style={{width: `${fontSize2}rem`}} src={sk6} alt="error" />
+                        <img src={sk1} alt="error" />
+                        <img src={sk2} alt="error" />
+                        <img src={sk3} alt="error" />
+                        <img src={sk4} alt="error" />
+                        <img src={sk5} alt="error" />
+                        <img src={sk6} alt="error" />
                     </div>
                     <div className='row-2'>
-                        <img style={{width: `${fontSize2}rem`}} src={sk7} alt="error" />
-                        <img style={{width: `${fontSize2}rem`}} src={sk8} alt="error" />
-                        <img style={{width: `${fontSize2}rem`}} src={sk9} alt="error" />
-                        <img style={{width: `${fontSize2}rem`}} src={sk10} alt="error" />
-                        <img style={{width: `${fontSize2}rem`}} id='hidden' src={sk1} alt="error" />
-                        <img style={{width: `${fontSize2}rem`}} id='hidden' src={sk1} alt="error" />
+                        <img src={sk7} alt="error" />
+                        <img src={sk8} alt="error" />
+                        <img src={sk9} alt="error" />
+                        <img src={sk10} alt="error" />
+                        <img id='hidden' src={sk1} alt="error" />
+                        <img id='hidden' src={sk1} alt="error" />
                     </div>
                 </div>
             </div>
         </div>
+        // style={{width: `${fontSize2}rem`}}
     )
 }
 
